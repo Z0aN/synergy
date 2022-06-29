@@ -1,11 +1,5 @@
 @extends('layouts.app')
-<head>
-    <meta charset="utf-8">
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-</head>
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
