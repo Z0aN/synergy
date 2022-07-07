@@ -40,6 +40,14 @@
                         </div>
 
                         <div class="row mb-3">
+                            <label for="pasport" class="col-md-4 col-form-label text-md-end">{{ __('Pasport') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="pasport" type="text" class="form-control" name="pasport" value="{{ old('pasport') }}">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
                             <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
